@@ -1,0 +1,97 @@
+.timelineGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.columnTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #eef0f8;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(200, 168, 75, 0.15);
+}
+
+/* Timeline line — gold faded */
+.timelineList {
+  position: relative;
+  border-left: 2px solid rgba(200, 168, 75, 0.2);
+  padding-left: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.timelineItem {
+  position: relative;
+}
+
+/* Dot — gold ring, navy fill */
+.timelineDot {
+  position: absolute;
+  top: 0.4rem;
+  left: -2.35rem;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--bg-primary);
+  border: 2px solid var(--accent-gold);
+  box-shadow: 0 0 8px rgba(200, 168, 75, 0.4);
+}
+
+.itemCard {
+  padding: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.itemHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.itemRole {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #eef0f8;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Company name — gold */
+.itemCompany {
+  font-size: 0.9rem;
+  color: var(--accent-gold);
+  font-weight: 600;
+}
+
+.itemPeriod {
+  font-size: 0.78rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}
+
+.itemPoints {
+  padding-left: 1.15rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.itemPoints li {
+  margin-bottom: 0.3rem;
+}
+
+@media (max-width: 860px) {
+  .timelineGrid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}

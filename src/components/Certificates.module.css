@@ -1,0 +1,151 @@
+.filterBar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 2.5rem;
+}
+
+.filterBtn {
+  padding: 0.5rem 1.15rem;
+  border-radius: var(--radius-full);
+  font-size: 0.86rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  color: var(--text-secondary);
+  transition: all 0.22s ease;
+}
+
+.filterBtn:hover {
+  color: #eef0f8;
+  border-color: rgba(200, 168, 75, 0.28);
+  background: rgba(200, 168, 75, 0.06);
+}
+
+.filterActive {
+  background: linear-gradient(135deg, rgba(200, 168, 75, 0.22), rgba(160, 120, 48, 0.22));
+  color: var(--accent-gold-light);
+  border-color: rgba(200, 168, 75, 0.45);
+  box-shadow: 0 0 14px rgba(200, 168, 75, 0.18);
+}
+
+.certsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 1.5rem;
+}
+
+.certCard {
+  padding: 1.65rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.15rem;
+  border-radius: var(--radius-lg);
+}
+
+.cardTop {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+/* Category tag — gold */
+.categoryTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent-gold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.certTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #eef0f8;
+  line-height: 1.4;
+  font-family: 'Lato', sans-serif;
+}
+
+.issuerRow {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+}
+
+.cardBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  gap: 0.75rem;
+}
+
+/* PDF pill — merah tetap karena dokumen resmi */
+.pdfPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: #e05050;
+  background: rgba(220, 60, 60, 0.08);
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(220, 60, 60, 0.2);
+}
+
+.actionRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* View button — gold */
+.viewBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.42rem 0.85rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  background: rgba(200, 168, 75, 0.1);
+  border: 1px solid rgba(200, 168, 75, 0.3);
+  color: var(--accent-gold);
+  transition: all 0.2s ease;
+}
+
+.viewBtn:hover {
+  background: linear-gradient(135deg, #e8ca72, #c8a84b);
+  color: #0c0f1a;
+  border-color: transparent;
+  transform: translateY(-1px);
+}
+
+.downloadBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+}
+
+.downloadBtn:hover {
+  color: var(--accent-gold);
+  border-color: rgba(200, 168, 75, 0.35);
+  background: rgba(200, 168, 75, 0.08);
+}
