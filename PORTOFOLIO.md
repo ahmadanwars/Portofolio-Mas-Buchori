@@ -32,7 +32,7 @@ Data pada file ini adalah acuan utama untuk konten website portofolio.
 ## 5. KEAHLIAN (SKILLS)
 - Hard skills: FTTX Network, Fiber Optic, Network Configuration, Network Operation Center (NOC), IT Sistem, Data Analyst, OTDR & Splicing, Troubleshooting Jaringan, Cyber Security
 - Soft skills: Leadership Lapangan, Team Work, Communication Skills, Creativity Skill, Problem Solving
-- Sertifikasi: 10 Sertifikat resmi (Cyber Security, Fiber Optik, K3, SK Team Leader TA, AKHLAK BUMN, The Telkom Way, dll).
+- Sertifikasi: 13 Berkas Resmi (10 Sertifikat + 3 Dokumen Legalitas: Ijazah, SIM A, NPWP), Fiber Optik, K3, SK Team Leader TA, AKHLAK BUMN, The Telkom Way, dll).
 - Kepatuhan & Lainnya: Standar K3 Telekomunikasi, Driver Profesional (Safety Driving)
 
 ## 6. PENGALAMAN KERJA / ORGANISASI

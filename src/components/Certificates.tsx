@@ -8,7 +8,7 @@ export default function Certificates() {
   const { certificates } = portfolioData;
   const [activeCategory, setActiveCategory] = useState<string>("Semua");
 
-  const categories = ["Semua", "Teknis & Jaringan", "Security & K3", "Leadership & Team", "Budaya BUMN"];
+  const categories = ["Semua", "Teknis & Jaringan", "Security & K3", "Leadership & Team", "Budaya BUMN", "Legalitas & Dokumen"];
 
   const filteredCerts =
     activeCategory === "Semua"
@@ -71,7 +71,7 @@ export default function Certificates() {
                     <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
                     <polyline points="14 2 14 8 20 8"></polyline>
                   </svg>
-                  <span>PDF RESMI</span>
+                  <span>{cert.pdfUrl.toLowerCase().endsWith('.pdf') ? 'PDF RESMI' : 'DOKUMEN RESMI'}</span>
                 </div>
 
                 <div className={styles.actionRow}>
@@ -81,7 +81,7 @@ export default function Certificates() {
                     rel="noopener noreferrer"
                     className={styles.viewBtn}
                   >
-                    <span>Buka PDF</span>
+                    <span>{cert.pdfUrl.toLowerCase().endsWith('.pdf') ? 'Buka PDF' : 'Lihat Berkas'}</span>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                       <polyline points="15 3 21 3 21 9"></polyline>

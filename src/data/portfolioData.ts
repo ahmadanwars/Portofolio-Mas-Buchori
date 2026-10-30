@@ -33,7 +33,7 @@ export interface EducationItem {
 export interface CertificateItem {
   id: string;
   title: string;
-  category: "Teknis & Jaringan" | "Security & K3" | "Leadership & Team" | "Budaya BUMN";
+  category: "Teknis & Jaringan" | "Security & K3" | "Leadership & Team" | "Budaya BUMN" | "Legalitas & Dokumen";
   issuer: string;
   pdfUrl: string;
   fileName: string;
@@ -184,6 +184,30 @@ export const portfolioData: PortfolioData = {
       issuer: "Telkom Indonesia Corporate University",
       pdfUrl: "/sertifikat/SERTIFIKAT TELKOM WAY.pdf",
       fileName: "SERTIFIKAT TELKOM WAY.pdf",
+    },
+    {
+      id: "doc-ijazah",
+      title: "Ijazah SMA Swasta Nusa Putra Tangerang (IPS)",
+      category: "Legalitas & Dokumen",
+      issuer: "SMA Swasta Nusa Putra Tangerang",
+      pdfUrl: "/sertifikat/IJAZAH buchori.jpg",
+      fileName: "IJAZAH buchori.jpg",
+    },
+    {
+      id: "doc-sim-a",
+      title: "Surat Izin Mengemudi (SIM A Aktif)",
+      category: "Legalitas & Dokumen",
+      issuer: "Kepolisian Negara Republik Indonesia (Korlantas Polri)",
+      pdfUrl: "/sertifikat/SIM buchori.jpg",
+      fileName: "SIM buchori.jpg",
+    },
+    {
+      id: "doc-npwp",
+      title: "Kartu Nomor Pokok Wajib Pajak (NPWP Terdaftar)",
+      category: "Legalitas & Dokumen",
+      issuer: "Direktorat Jenderal Pajak (Kemenkeu RI)",
+      pdfUrl: "/sertifikat/NPWP buchori.jpg",
+      fileName: "NPWP buchori.jpg",
     },
   ],
   photos: [
