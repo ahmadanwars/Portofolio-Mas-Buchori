@@ -8,7 +8,7 @@ export default function Certificates() {
   const { certificates } = portfolioData;
   const [activeCategory, setActiveCategory] = useState<string>("Semua");
 
-  const categories = ["Semua", "Teknis & Jaringan", "Security & K3", "Leadership & Team", "Budaya BUMN", "Legalitas & Dokumen"];
+  const categories = ["Semua", "Teknis & Jaringan", "Security & K3", "Leadership & Team", "Budaya BUMN"];
 
   const filteredCerts =
     activeCategory === "Semua"

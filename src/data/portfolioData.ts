@@ -33,7 +33,7 @@ export interface EducationItem {
 export interface CertificateItem {
   id: string;
   title: string;
-  category: "Teknis & Jaringan" | "Security & K3" | "Leadership & Team" | "Budaya BUMN" | "Legalitas & Dokumen";
+  category: "Teknis & Jaringan" | "Security & K3" | "Leadership & Team" | "Budaya BUMN";
   issuer: string;
   pdfUrl: string;
   fileName: string;
@@ -45,7 +45,9 @@ export interface PhotoItem {
   description: string;
   imgUrl: string;
   badge: string;
+  category?: "harian" | "rapat";
   objectPosition?: string;
+  highlights?: string[];
 }
 
 export interface PortfolioData {
@@ -73,6 +75,7 @@ export interface PortfolioData {
   skills: SkillCategory[];
   certificates: CertificateItem[];
   photos: PhotoItem[];
+  activities: PhotoItem[];
   experiences: ExperienceItem[];
   education: EducationItem[];
   preferences: {
@@ -185,30 +188,6 @@ export const portfolioData: PortfolioData = {
       pdfUrl: "/sertifikat/SERTIFIKAT TELKOM WAY.pdf",
       fileName: "SERTIFIKAT TELKOM WAY.pdf",
     },
-    {
-      id: "doc-ijazah",
-      title: "Ijazah SMA Swasta Nusa Putra Tangerang (IPS)",
-      category: "Legalitas & Dokumen",
-      issuer: "SMA Swasta Nusa Putra Tangerang",
-      pdfUrl: "/sertifikat/IJAZAH buchori.jpg",
-      fileName: "IJAZAH buchori.jpg",
-    },
-    {
-      id: "doc-sim-a",
-      title: "Surat Izin Mengemudi (SIM A Aktif)",
-      category: "Legalitas & Dokumen",
-      issuer: "Kepolisian Negara Republik Indonesia (Korlantas Polri)",
-      pdfUrl: "/sertifikat/SIM buchori.jpg",
-      fileName: "SIM buchori.jpg",
-    },
-    {
-      id: "doc-npwp",
-      title: "Kartu Nomor Pokok Wajib Pajak (NPWP Terdaftar)",
-      category: "Legalitas & Dokumen",
-      issuer: "Direktorat Jenderal Pajak (Kemenkeu RI)",
-      pdfUrl: "/sertifikat/NPWP buchori.jpg",
-      fileName: "NPWP buchori.jpg",
-    },
   ],
   photos: [
     {
@@ -234,6 +213,110 @@ export const portfolioData: PortfolioData = {
       imgUrl: "/foto/6253469583113568549.jpg",
       badge: "APRESIASI RESMI",
       objectPosition: "center 72%",
+    },
+  ],
+  activities: [
+    // --- Kegiatan Persiapan Harian (Apel, Briefing, K3) ---
+    {
+      id: "activity-geotag-apel",
+      title: "Apel Pagi & Inspeksi K3 Terverifikasi Geotag Resmi",
+      description: "Dokumentasi apel pagi dan verifikasi kehadiran tim teknisi di Serpong, Banten.",
+      imgUrl: "/foto/lap kinerja 1.jpg",
+      badge: "GEOTAG & TIMESTAMP RESMI",
+      category: "harian",
+      objectPosition: "center 30%",
+    },
+    {
+      id: "activity-briefing-leader",
+      title: "Instruksi Kerja & Pengarahan Operasional Lapangan",
+      description: "Briefing arahan teknis penanganan tiket gangguan dan pembagian rute teknisi.",
+      imgUrl: "/foto/lap kinerja 2.jpg",
+      badge: "LEADERSHIP & PENGARAHAN",
+      category: "harian",
+      objectPosition: "center 40%",
+    },
+    {
+      id: "activity-inspeksi-alat",
+      title: "Inspeksi Kesiapan Alat Kerja, Tangga & Toolkit K3",
+      description: "Pemeriksaan kelayakan APD, tangga teleskopik, dan alat ukur fiber optik.",
+      imgUrl: "/foto/lap kinerja 3.jpg",
+      badge: "INSPEKSI ALAT & K3",
+      category: "harian",
+      objectPosition: "center 40%",
+    },
+    {
+      id: "activity-komitmen-akhlak",
+      title: "Penyelarasan Nilai AKHLAK & Doa Bersama Sebelum Tugas",
+      description: "Doa bersama dan pembacaan komitmen budaya AKHLAK BUMN.",
+      imgUrl: "/foto/lap kinerja 4.jpg",
+      badge: "BUDAYA KERJA AKHLAK",
+      category: "harian",
+      objectPosition: "center 25%",
+    },
+    {
+      id: "activity-supervisi-tower",
+      title: "Supervisi Kesiapan Tim di Area Kantor Operasional & Tower",
+      description: "Koordinasi operasional lapangan bersama tim NOC dan dispatcher.",
+      imgUrl: "/foto/lap kinerja 5.jpg",
+      badge: "SUPERVISI LAPANGAN",
+      category: "harian",
+      objectPosition: "center 25%",
+    },
+    {
+      id: "activity-disiplin-operasional",
+      title: "Penegakan Standar 'Disiplin Operasional' Perusahaan",
+      description: "Penerapan ketat 4 pilar Disiplin Operasional Telkom Akses.",
+      imgUrl: "/foto/lap kinerja 6.jpg",
+      badge: "STANDAR DISIPLIN TELKOM",
+      category: "harian",
+      objectPosition: "center 25%",
+    },
+
+    // --- Rapat & Koordinasi Manajerial ---
+    {
+      id: "activity-rapat-metrik",
+      title: "Rapat Tinjauan Performa & Evaluasi Metrik Operasional (Witel Tangerang)",
+      description: "Evaluasi capaian performa SLA tiket dan performansi harian bersama tim pengawas Witel Tangerang.",
+      imgUrl: "/foto/rapat 1.jpg",
+      badge: "EVALUASI METRIK",
+      category: "rapat",
+      objectPosition: "center center",
+    },
+    {
+      id: "activity-rapat-posko",
+      title: "Koordinasi Operasional di Posko Pemenangan STO Witel Tangerang",
+      description: "Sinkronisasi strategi operasional dan pemantauan order layanan di posko STO.",
+      imgUrl: "/foto/rapat 2.jpg",
+      badge: "POSKO OPERASIONAL",
+      category: "rapat",
+      objectPosition: "center center",
+    },
+    {
+      id: "activity-rapat-dashboard",
+      title: "Presentasi & Analisis Dashboard Kinerja Lapangan",
+      description: "Pemaparan analisis data teknis jaringan dan monitoring gangguan via dashboard sistem.",
+      imgUrl: "/foto/rapat 3.jpg",
+      badge: "ANALISIS DASHBOARD",
+      category: "rapat",
+      objectPosition: "center center",
+    },
+    {
+      id: "activity-rapat-siaga-naru",
+      title: "Rapat Koordinasi Posko TelkomGroup Siaga IOC Witel Tangerang",
+      description: "Rapat koordinasi kesiapan satgas pengamanan jaringan telekomunikasi posko siaga.",
+      imgUrl: "/foto/rapat 4.jpg",
+      badge: "RAPAT SIAGA IOC",
+      category: "rapat",
+      objectPosition: "center center",
+    },
+    {
+      id: "activity-rapat-strategi",
+      title: "Penyusunan Strategi & Mitigasi Posko Siaga Bersama Manajemen",
+      description: "Perumusan mitigasi gangguan jaringan serta rencana cadangan pemeliharaan infrastruktur.",
+      imgUrl: "/foto/rapat 5.jpg",
+      badge: "STRATEGI MANAJERIAL",
+      category: "rapat",
+      objectPosition: "center center",
     },
   ],
   skills: [
