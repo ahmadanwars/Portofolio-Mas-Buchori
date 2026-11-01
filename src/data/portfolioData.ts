@@ -369,10 +369,10 @@ export const portfolioData: PortfolioData = {
       role: "Team Leader Operasional",
       period: "2013 — Sekarang",
       points: [
-        "Memimpin, mengawasi, dan mengarahkan regu teknisi lapangan dalam instalasi, pemeliharaan preventif, serta pemulihan gangguan jaringan infrastruktur Fiber Optic (FTTX).",
-        "Mengelola konfigurasi jaringan (Network Configuration) dan koordinasi harian bersama Network Operation Center (NOC) guna menjaga kepatuhan SLA pemeliharaan di atas target.",
-        "Menerapkan protokol keselamatan dan kesehatan kerja (K3) secara ketat di lingkungan kerja tanpa kompromi (zero incident).",
-        "Membina loyalitas, etos kerja, dan kekompakan tim berbasis nilai AKHLAK BUMN hingga berhasil meraih apresiasi Juara 1 Tim Teknisi Berprestasi.",
+        "Memimpin, mengawasi, dan mengarahkan regu teknisi lapangan dalam instalasi, pemeliharaan jaringan dan infrastruktur, serta pemulihan gangguan jaringan infrastruktur Fiber Optic (FTTX).",
+        "Mengelola konfigurasi jaringan (Network Configuration) dan koordinasi harian bersama Network Operation Center (NOC)",
+        "Menerapkan protokol keselamatan dan kesehatan kerja (K3)",
+        "Membina loyalitas, kedisiplinan kerja, dan kekompakan tim",
       ],
     },
     {
@@ -380,8 +380,8 @@ export const portfolioData: PortfolioData = {
       role: "Staf Assurance",
       period: "2012 — 2013",
       points: [
-        "Melakukan presentasi, edukasi proteksi finansial, dan penawaran produk asuransi kepada calon nasabah secara profesional dan persuasif.",
-        "Mencapai target pemasaran yang ditetapkan dengan mengutamakan kepuasan nasabah, transparansi informasi, serta integritas perbankan.",
+        "Melakukan penawaran produk asuransi kepada calon nasabah secara profesional dan persuasif.",
+        "Mencapai target pemasaran yang ditetapkan perusahaan",
       ],
     },
     {
@@ -389,7 +389,7 @@ export const portfolioData: PortfolioData = {
       role: "Driver Profesional",
       period: "2011 — 2012",
       points: [
-        "Menyediakan jasa transportasi eksekutif untuk kebutuhan rental korporat dan personal dengan komitmen tinggi pada keselamatan (defensive driving) dan ketepatan waktu.",
+        "Menyediakan jasa transportasi eksekutif untuk kebutuhan rental korporat dan personal",
         "Menjaga kondisi armada kendaraan selalu prima, bersih, dan mematuhi seluruh regulasi lalu lintas serta standar kenyamanan penumpang.",
       ],
     },

@@ -37,24 +37,27 @@ Data pada file ini adalah acuan utama untuk konten website portofolio.
 
 ## 6. PENGALAMAN KERJA / ORGANISASI
 - Nama perusahaan: PT Telkom Akses
-  - Posisi/jabatan: Team Leader
-  - Periode: 2013 - Sekarang
+  - Posisi/jabatan: Team Leader Operasional
+  - Periode: 2013 — Sekarang
   - Deskripsi singkat tanggung jawab & pencapaian:
-    - Memimpin, mengawasi, dan mengarahkan kelompok teknisi atau staf operasional di lapangan dalam melakukan instalasi, pemeliharaan, serta perbaikan jaringan infrastruktur telekomunikasi seperti Fiber Optic (FTTX).
-    - Menangani konfigurasi jaringan (Network Configuration) dan integrasi operasional bersama Network Operation Center (NOC).
-    - Menerapkan standar keselamatan kerja K3 dan budaya AKHLAK BUMN serta meraih penghargaan Juara 1 Tim Teknisi Berprestasi.
+    - Memimpin, mengawasi, dan mengarahkan regu teknisi lapangan dalam instalasi, pemeliharaan jaringan dan infrastruktur, serta pemulihan gangguan jaringan infrastruktur Fiber Optic (FTTX).
+    - Mengelola konfigurasi jaringan (Network Configuration) dan koordinasi harian bersama Network Operation Center (NOC)
+    - Menerapkan protokol keselamatan dan kesehatan kerja (K3)
+    - Membina loyalitas, kedisiplinan kerja, dan kekompakan tim
 
 - Nama perusahaan: Bank Mega
   - Posisi/jabatan: Staf Assurance
-  - Periode: 2012 - 2013
+  - Periode: 2012 — 2013
   - Deskripsi singkat:
-    - Pemasaran produk: Menawarkan dan memasarkan berbagai produk asuransi kepada calon nasabah secara profesional.
+    - Melakukan penawaran produk asuransi kepada calon nasabah secara profesional dan persuasif.
+    - Mencapai target pemasaran yang ditetapkan perusahaan
 
 - Nama perusahaan: PT Indorent
   - Posisi/jabatan: Driver Profesional
-  - Periode: 2011 - 2012
+  - Periode: 2011 — 2012
   - Deskripsi singkat:
-    - Penyedia layanan transportasi profesional yang menyediakan jasa pengemudi untuk kebutuhan penyewaan mobil baik untuk individu maupun perusahaan dengan standar keselamatan tinggi.
+    - Menyediakan jasa transportasi eksekutif untuk kebutuhan rental korporat dan personal
+    - Menjaga kondisi armada kendaraan selalu prima, bersih, dan mematuhi seluruh regulasi lalu lintas serta standar kenyamanan penumpang.
 
 ## 7. PENDIDIKAN
 - Institusi: Universitas Muhammadiyah Ponorogo
